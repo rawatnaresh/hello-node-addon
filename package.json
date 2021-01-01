@@ -1,0 +1,15 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "nodejs addon",
+  "main": "index.js",
+  "author": "Naresh Rawat",
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bindings": "^1.5.0"
+  },
+  "gypfile": true
+}
